@@ -6,3 +6,4 @@
 |-|-|
 |01|[Сборка и установка ядра WRK](01_WRK_build_and_install.md)|
 |02|[Простая модификация ядра, использование отладочной функции](02_First_WRK_modification.md)|
+|03|[Знакомство с WinDbg](03_WinDbg_geting_started.md)|
