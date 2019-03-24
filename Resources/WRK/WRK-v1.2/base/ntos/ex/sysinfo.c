@@ -1718,7 +1718,7 @@ Return Value:
     PKSERVICE_TABLE_DESCRIPTOR Table;
     ULONG SessionId;
     ULONG Alignment;
-
+	
     PAGED_CODE();
 
     //
@@ -1726,6 +1726,7 @@ Return Value:
     //
 
     Status = STATUS_SUCCESS;
+
     try {
 
         //
