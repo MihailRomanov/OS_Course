@@ -54,7 +54,10 @@ ccobjs= \
 	$(OBJ)\win32.obj		\
 	$(OBJ)\rundown.obj		\
 	$(OBJ)\pushlock.obj		\
-	$(OBJ)\keyedevent.obj
+	$(OBJ)\keyedevent.obj	\
+	$(OBJ)\mycall.obj		\
+	$(OBJ)\mycall2.obj		\
+
 
 !include $(ntos)\BUILD\makefile.build
 

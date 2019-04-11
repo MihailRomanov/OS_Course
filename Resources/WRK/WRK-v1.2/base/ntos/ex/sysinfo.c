@@ -1718,7 +1718,6 @@ Return Value:
     PKSERVICE_TABLE_DESCRIPTOR Table;
     ULONG SessionId;
     ULONG Alignment;
-
     PAGED_CODE();
 
     //

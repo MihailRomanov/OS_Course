@@ -295,3 +295,5 @@ WaitForKeyedEvent,4
 QueryPortInformationProcess,0
 GetCurrentProcessorNumber,0
 WaitForMultipleObjects32,5
+MyNewSystemCall,1
+AnotherNewSystemCall,2
