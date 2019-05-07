@@ -1,6 +1,6 @@
 #include "exp.h"
 
-NTSTATUS NtMyNewSystemCall(int PrCount)
+NTSTATUS NtMyNewSystemCall(int Count)
 {
 	int f;
 	static long callCount = 0;	
