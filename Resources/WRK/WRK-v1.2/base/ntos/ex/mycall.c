@@ -2,12 +2,11 @@
 
 NTSTATUS NtMyNewSystemCall(int PrCount)
 {
-	int d;
-	static long callCount = 1;	
-	for (d = 0; d < PrCount; d++)
+	int f;
+	static long callCount = 0;	
+	for (f = 0; d < PrCount; f++)
 	{
-		DbgPrint("WRK NtMyNewSystemCall: %d\n", callCount);
+		DbgPrint("WRK NtMyNewSystemCall: %d\n", ++callCount);
 	}
-	callCount++;
 	return STATUS_SUCCESS;
 }
