@@ -1,6 +1,6 @@
 #include <windows.h>
 
- NTSTATUS NtMyNewSystemCall(int count)
+ NTSTATUS NtMyNewSystemCall(int Count)
 {
 	void** stackFrame = (void*)(&count);
 	__asm {
