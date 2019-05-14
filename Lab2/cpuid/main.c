@@ -25,15 +25,25 @@ void main()
 
 	int ch = pureasm();
 	printf("pureasm: %d\n", ch);
-	if ((ch & fpu) == fpu) printf("FPU 1\n");
-	else printf("FPU 0\n");
-	if ((ch & sse) == sse) printf("SSE 1\n");
-	else printf("SSE 0\n");
-	if ((ch & sse2) == sse2) printf("SSE2 1\n");
-	else printf("SSE2 0\n");
-	if ((ch & htt) == htt) printf("HTT 1\n");
-	else printf("HTT 0\n");
-	if ((ch & mpx) == mpx) printf("MPX 1\n");
-	else printf("MPX 0\n");
+	if ((ch & fpu)= fpu) {
+		printf("FPU Supported by the system\n")
+	}
+	else print("SSE Not supported by system\n")
+	if ((ch & sse) == sse) {
+		printf("SSE Supported by the system\n")
+	}
+	else print("SSE Not supported by system\n")
+	if ((ch & sse2) == sse2) {
+		printf("SSE Supported by the system\n")
+	}
+	else print("SSE2 Not supported by system\n")
+	if ((ch & htt) == htt) {
+		printf("HTT Supported by the system\n")
+	}
+	else print("HTT Not supported by system\n")
+	if ((ch & mpx) == mpx) {
+		printf("MPX Supported by the system\n")
+	}
+	else print("MPX Not supported by system\n")
 	_getch();
 }
