@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <conio.h>
-#include "CPU.h"
 
 #define fpu 1
 #define sse 2
