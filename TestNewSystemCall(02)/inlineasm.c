@@ -1,5 +1,3 @@
-#include "CPU.h"
-
 struct CPUFeatures {
 	_Bool sFPU;
 	_Bool sSSE;
